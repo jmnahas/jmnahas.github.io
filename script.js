@@ -1,4 +1,4 @@
-$(function(){
+(function(){
     $(window).scroll(function(){
       var winTop = $(window).scrollTop();
       if(winTop >= 30){
@@ -9,7 +9,7 @@ $(function(){
         console.log("Horacio")
       }//if-else
     });//win func.
-  });
+});
 
 colores = [2]
 colores[0]= Math.floor(Math.random()*16777215).toString(16);
