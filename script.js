@@ -3,8 +3,10 @@ $(function(){
       var winTop = $(window).scrollTop();
       if(winTop >= 30){
         $("body").addClass("sticky-header");
+        console.log("Marselo")
       }else{
         $("body").removeClass("sticky-header");
+        console.log("Horacio")
       }//if-else
     });//win func.
   });
