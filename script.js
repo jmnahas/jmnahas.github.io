@@ -1,11 +1,22 @@
-var i=0
+$(function(){
+    $(window).scroll(function(){
+      var winTop = $(window).scrollTop();
+      if(winTop >= 30){
+        $("body").addClass("sticky-header");
+      }else{
+        $("body").removeClass("sticky-header");
+      }//if-else
+    });//win func.
+  });
+
 colores = [2]
-    colores[0]= Math.floor(Math.random()*16777215).toString(16);
-    colores[1]= Math.floor(Math.random()*16777215).toString(16);
-    colores[2]= Math.floor(Math.random()*16777215).toString(16);
+colores[0]= Math.floor(Math.random()*16777215).toString(16);
+colores[1]= Math.floor(Math.random()*16777215).toString(16);
+colores[2]= Math.floor(Math.random()*16777215).toString(16);
 function inicio(){
     document.getElementById("botonsaurio").style.backgroundColor= "#" + colores[i]
 }
+
 
 function oprimir(){
     i=i+1
