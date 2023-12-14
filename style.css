@@ -1,13 +1,12 @@
 header{
     width: 100%;
-    height: 100px;
+    height: 300px;
 	background-color: #A682FF;
     text-align: center;
 	position: relative;
 	position: fixed;
 	top: 0;
 	overflow: hidden;
-    
     h1{
 		font-size: 42px;
 		color: #102E4A;
