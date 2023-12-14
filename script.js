@@ -2,10 +2,10 @@
 window.onload = function () {
     window.onscroll = function () {
         if(document.body.scrollTop > 30){
-            document.getElementsByTagName("body").addClass("sticky-header");
+            document.body.addClass("sticky-header");
             console.log("Marselo")
           }else{
-            document.getElementsByTagName("body").removeClass("sticky-header");
+            document.body.removeClass("sticky-header");
             console.log("Horacio")
           }
     };
