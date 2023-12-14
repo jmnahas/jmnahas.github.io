@@ -1,6 +1,7 @@
 function inicio(){
     window.scroll(function(){
-      var winTop = window.scrollTop();
+      var winTop = window.scrollY
+      console.log(winTop)
       if(winTop >= 30){
         document.getElementsByTagName("body").addClass("sticky-header");
         console.log("Marselo")
