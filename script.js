@@ -1,6 +1,6 @@
-function inicio(){
-    window.scroll(function(){
-      var winTop = window.scrollY
+function scrolleo(){
+    window.onscroll(function(){
+      var winTop = document.body.scrollTop
       console.log(winTop)
       if(winTop >= 30){
         document.getElementsByTagName("body").addClass("sticky-header");
@@ -12,7 +12,7 @@ function inicio(){
     });//win func.
     document.getElementById("botonsaurio").style.backgroundColor= "#" + colores[i]
 };
-
+window.onscroll = scrolleo()
 colores = [2]
 colores[0]= Math.floor(Math.random()*16777215).toString(16);
 colores[1]= Math.floor(Math.random()*16777215).toString(16);
