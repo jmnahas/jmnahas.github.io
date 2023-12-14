@@ -15,7 +15,17 @@ function scrolleo(){
 function inicio(){
     document.getElementById("botonsaurio").style.backgroundColor= "#" + colores[i]
 }
-window.onscroll = scrolleo()
+window.onload = function () {
+    window.onscroll = function () {
+        if(document.body.scrollTop > 30){
+            document.getElementsByTagName("body").addClass("sticky-header");
+            console.log("Marselo")
+          }else{
+            document.getElementsByTagName("body").removeClass("sticky-header");
+            console.log("Horacio")
+          }
+    };
+  };
 colores = [2]
 colores[0]= Math.floor(Math.random()*16777215).toString(16);
 colores[1]= Math.floor(Math.random()*16777215).toString(16);
