@@ -8,6 +8,5 @@ function oprimir(){
     if (i==3) {
         i=0
     }
-    
-    document.getElementById("botonsaurio").style.color = "#" + colores[i]
+    document.getElementById("botonsaurio").style.backgroundColor = "#" + colores[i]
 }
