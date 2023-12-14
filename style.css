@@ -21,4 +21,19 @@ header{
 		text-transform: uppercase;
 		font-weight: 100;
     }
+    nav{
+		position: absolute;
+		bottom: 0;
+		height: 60px;
+		line-height: 60px;
+		width: 100%;
+		background-color: rgba(0,0,0,.1);
+		a{
+			color: #102E4A;
+			display: inline-block;
+			padding: 10px 15px;
+			line-height: 1;
+			text-decoration: none;
+		}
+    }
 }
