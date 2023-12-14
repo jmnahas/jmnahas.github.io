@@ -1,17 +1,4 @@
-function scrolleo(){
-    window.onscroll=function(){
-      var winTop = document.body.scrollTop
-      console.log(winTop)
-      if(winTop >= 30){
-        document.getElementsByTagName("body").addClass("sticky-header");
-        console.log("Marselo")
-      }else{
-        document.getElementsByTagName("body").removeClass("sticky-header");
-        console.log("Horacio")
-      }//if-else
-    };//win func.
-    
-};
+
 function inicio(){
     document.getElementById("botonsaurio").style.backgroundColor= "#" + colores[i]
 }
