@@ -1,11 +1,11 @@
 function inicio(){
-    $(window).scroll(function(){
-      var winTop = $(window).scrollTop();
+    window.scroll(function(){
+      var winTop = window.scrollTop();
       if(winTop >= 30){
-        $("body").addClass("sticky-header");
+        document.getElementsByTagName("body").addClass("sticky-header");
         console.log("Marselo")
       }else{
-        $("body").removeClass("sticky-header");
+        document.getElementsByTagName("body").removeClass("sticky-header");
         console.log("Horacio")
       }//if-else
     });//win func.
