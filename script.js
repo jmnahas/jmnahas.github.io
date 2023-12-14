@@ -1,7 +1,4 @@
 
-function inicio(){
-    document.getElementById("botonsaurio").style.backgroundColor= "#" + colores[i]
-}
 window.onload = function () {
     window.onscroll = function () {
         if(document.body.scrollTop > 30){
@@ -12,6 +9,7 @@ window.onload = function () {
             console.log("Horacio")
           }
     };
+    document.getElementById("botonsaurio").style.backgroundColor= "#" + colores[i]
   };
 colores = [2]
 colores[0]= Math.floor(Math.random()*16777215).toString(16);
