@@ -1,4 +1,4 @@
-(function(){
+function inicio(){
     $(window).scroll(function(){
       var winTop = $(window).scrollTop();
       if(winTop >= 30){
@@ -9,15 +9,13 @@
         console.log("Horacio")
       }//if-else
     });//win func.
-});
+    document.getElementById("botonsaurio").style.backgroundColor= "#" + colores[i]
+};
 
 colores = [2]
 colores[0]= Math.floor(Math.random()*16777215).toString(16);
 colores[1]= Math.floor(Math.random()*16777215).toString(16);
 colores[2]= Math.floor(Math.random()*16777215).toString(16);
-function inicio(){
-    document.getElementById("botonsaurio").style.backgroundColor= "#" + colores[i]
-}
 
 
 function oprimir(){
