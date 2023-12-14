@@ -1,5 +1,5 @@
 function scrolleo(){
-    window.onscroll(function(){
+    window.onscroll=function(){
       var winTop = document.body.scrollTop
       console.log(winTop)
       if(winTop >= 30){
@@ -9,7 +9,7 @@ function scrolleo(){
         document.getElementsByTagName("body").removeClass("sticky-header");
         console.log("Horacio")
       }//if-else
-    });//win func.
+    };//win func.
     
 };
 function inicio(){
