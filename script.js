@@ -10,8 +10,11 @@ function scrolleo(){
         console.log("Horacio")
       }//if-else
     });//win func.
-    document.getElementById("botonsaurio").style.backgroundColor= "#" + colores[i]
+    
 };
+function inicio(){
+    document.getElementById("botonsaurio").style.backgroundColor= "#" + colores[i]
+}
 window.onscroll = scrolleo()
 colores = [2]
 colores[0]= Math.floor(Math.random()*16777215).toString(16);
