@@ -1,7 +1,7 @@
 
 window.onload = function () {
     window.onscroll = function () {
-        if(document.body.scrollTop > 30){
+        if(window.scrollY> 30){
             document.body.classList.add("sticky-header");
             console.log("Marselo")
           }else{
