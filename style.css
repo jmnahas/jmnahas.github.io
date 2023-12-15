@@ -55,6 +55,22 @@ body{
 	padding-top: 330px;
 	@include transition(padding-top .5s ease);
 }
+.wrapper{
+	width: 800px;
+	margin: 0 auto;
+}
+section{
+	padding: 20px;
+	margin-bottom: 40px;
+	background-color: #fff;
+	@include border-radius(4px);
+	@include box-shadow(0 1px 0 rgba(0,0,0,.2));
+}
+p{
+	margin-bottom: 2rem;
+	line-height: 2;
+	color: #7f8c8d;
+}
 
 body.sticky-header{
 	padding-top: 100px;
