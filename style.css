@@ -1,6 +1,4 @@
 @import "compass/css3";
-
-@import "compass/css3";
 @import "compass/reset";
 *{
 	@include box-sizing(border-box);
@@ -76,7 +74,7 @@ body.sticky-header{
 	padding-top: 100px;
 	header{
 		height: 60px;
-		background-color: rgba(52,152,219,.9);
+		background-color: A682FF;
 		h1{
 			@include scale(0);
 		}
