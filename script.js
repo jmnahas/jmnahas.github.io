@@ -17,6 +17,15 @@ colores[1]= Math.floor(Math.random()*16777215).toString(16);
 colores[2]= Math.floor(Math.random()*16777215).toString(16);
 i=0
 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  if (window.pageYOffset > 0) {
+    document.getElementById("myHeader").classList.add("sticky");
+  } else {
+    document.getElementById("myHeader").classList.remove("sticky");
+  }
+}
 function oprimir(){
     i=i+1
     if (i==3) {
